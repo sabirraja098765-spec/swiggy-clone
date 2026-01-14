@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+}
+
+.background{
+    width: 100%;
+    background-color: #FF5200;
+    height: 850px;
+}
+
+.main_nav{
+    height: 118px;
+    align-content: center;
+}
+
+.navbar{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.swiggy_logo{
+    width: 180px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 300px;
+    position: relative;
+    left: 75px;
+}
+
+.nav_element{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+.nav_element p{
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+.nav_element button{
+    border-radius: 15px;
+    height: 55px;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.get_app {
+    border: 1px solid white;
+    background-color: #FF5200;
+    color: white;
+    width: 150px;
+    font-size: medium;
+    
+}
+
+.sign_in{
+    background-color: black;
+    color: white;
+    width: 130px;
+    font-weight: 500;
+    font-size: medium;
+    border: 0;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.veg_img{
+    width: 250px;
+    height: 480px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content{
+    width: 790px;
+    height: 112px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.sushi_img{
+    width: 250px;
+    height: 480px;
+    background-size: cover;
+}
+
+
+@media(max-width : 820px) {
+    .background{
+        background-color: #FF5200;
+        width: 320%;
+    }
+    .content{
+        font-size: 2.9rem;
+
+    }
+    .app_download_banner{
+        width: 268%;
+    }
+}
+
+
+.search_bar{
+    display: flex;
+    margin-top: 24px;
+
+}
+.location{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1.5px solid rgb(179, 174, 174);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.location_logo i{
+    color: #FF5200;
+    font-size: x-large;
+    height: 23px;
+    position: relative;
+    bottom: 6px;
+    right: 5px;
+}
+
+.search_location{
+    display: flex;
+}
+.search_location input{
+    border: none;
+    width: 200px;
+    font-size: medium;
+    outline: none;
+}
+
+.address{
+    display: flex;
+
+}
+
+.select_logo{
+    position: relative;
+    bottom: 7px;
+}
+
+.search_items{
+    width: 484px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1.5px solid rgb(179, 170, 170);
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_items input{
+    width: 400px;
+    height: 55px;
+    font-size: large;
+    border: none;
+    outline: none;
+
+}
+
+.search_items i{
+   color: rgb(94, 92, 92);
+   font-size: medium;
+}
+
+.order_elements{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 250px;
+    margin-top:100px;
+}
+
+.order-items{
+    height: 400px;
+    width: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.middle_content p{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 90px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.middle-items{
+    display: flex;  
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.food-items{
+    width: 144px;
+    height: 150px;
+    background-size: cover;
+
+}
+
+.middle1_items{
+    display: flex;  
+    justify-content: space-evenly;
+    padding: 50px;
+    position: relative;
+    bottom: 80px;
+}
+
+.groceries_elements{
+    display: flex;  
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 50px;
+}
+.groceries{
+    height: 180px;
+    width: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.groceries-name{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 144px;
+    font-weight: 700;
+
+}
+
+.middle1_content p{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 90px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.middle1_content{
+    position: relative;
+    bottom: 100px;
+}
+
+@media(max-width :820px){
+    .middle-items{
+        width: 285%;
+    }
+    .middle1_items{
+        width: 285%;
+    }
+    .groceries_elements{
+        width: 280%;
+    }
+    .middle1_content p{
+        font-size: 20px;
+    }
+    .middle_content p{
+        font-size: 20px;
+    }
+    .food_delivery_cities_name{
+        width: 280%;
+    }
+    .last_content{
+        width: 240%;
+    }
+    .last-elements{
+        width: 320%;
+    }
+}
+
+
+
+.app_download_banner{
+    height: 245px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.food_delivery_cities_name{
+    height: 250px;
+    padding: 80px;
+}
+
+.food_delivery_cities_name h2{
+    margin-left: 110px;
+    font-family: sans-serif;
+    font-weight: 750;
+}
+
+.cities_name{
+    width: 185px;
+    height: 70px;
+    border: 1.5px solid rgb(199, 195, 195);
+    border-radius: 15px;
+    
+}
+
+.cities-lane{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.city-name-line1{
+    padding: 16px;
+    text-align: center;
+
+}
+
+.city-name-line1 p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.show-more{
+    color: #FF5200;
+    position: relative;
+    left: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+
+.city-name-line2{
+    padding: 16px;
+    text-align: center;
+    display: flex;
+}
+
+.city-name-line2 i{
+    color: #FF5200;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+.last_content{
+    height: 451px;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 155px 48px 155px;
+}
+
+.last-swiggy-logo{
+    width: 200px;
+    height: 355px;
+    margin-top: 48px;
+}
+
+.swiggy-img{
+    width: 162px;
+    height: 50px;
+    background-size: cover;
+}
+
+.company-info{
+    width: 110px;
+    height: 403px;
+    
+    margin-top: 48px;
+}
+
+.company-info p{
+    color: #02060c99;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-weight: 545;
+}
+
+.contact-info{
+    width: 100px;
+    height: 405px;
+    margin-top: 48px;
+}
+
+.contact-us p{
+    color: #02060c99;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-weight: 545;
+}
+
+.available_city{
+    margin-top: 48px;
+    width: 120px;
+    height: 405px;
+    
+}
+
+.available_city p{
+    color: #02060c99;
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-weight: 545;
+}
+
+.last-elements{
+    height: 130px;
+    background-color: #f0f0f5;
+    padding-bottom: 32px;
+}
+
+.last-part{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 60px 30px 60px;
+    background-color: #f0f0f5;
+}
+
+.apple-logo{
+    width: 196.92px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google-play-store{
+    width: 196px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
